@@ -17,7 +17,7 @@ body{
   padding-top: 0px;
 }
 .tren ul{
-  list-style: none;
+  list-style: none; /* làm mất dấu chấm */
 }
 .tren ul li{
   display: inline-block;
@@ -33,13 +33,15 @@ body{
   vertical-align: middle;
 }
 #logo{
-  padding-right: 650px;
+  padding-right: 570px;
 }
+
 /*.duoi{
   width: 80%;
   height: 50px;
   margin: 0 auto;
 }*/
+/*
 .search{
   height: 30px;
   width: 300px;
@@ -47,12 +49,15 @@ body{
   color: white;
   border-radius: 5px;
 }
+*/
 #fb{
-  padding-left: 100px;
+  padding-left: 10px;
 }
+/*
 #timkiem{
   border-radius: 5px;
 }
+*/
 .duoi{
   width: 85%;
   height: 50px;
@@ -66,17 +71,17 @@ body{
   padding: 5px;
 }
 #asus{
-  padding-right: 100px;
+  padding-right: 80px;
   padding-top: 0px;
 }
 #dell{
-  padding-right: 100px;
+  padding-right: 80px;
 }
 #hp{
-  padding-right: 100px;
+  padding-right: 80px;
 }
 #mac{
-  padding-right: 100px;
+  padding-right: 80px;
 }
 .content{
   background: black;
@@ -158,6 +163,26 @@ box-shadow: 0 3px yellow; /* đương kẻ chân*/
 .cuoi{
   background-color: #363636;
 }
+#icon1s{
+  font-size: 20px;
+}
+.col-sm-4 ul li{
+  list-style: none;
+}
+#hn:hover{
+  color: orange;
+}
+ul li ul{
+	display:none;
+}
+ul li:hover ul{
+	display:block;/* trỏ chuột sẽ hiện*/
+}
+/*
+ul li ul li{
+	clear:both;
+}*/
+
 
 
 
