@@ -24,7 +24,7 @@ body{
   padding: 10px;
 }
 .tren ul li a{
-  text-decoration: none;
+  text-decoration: none;/* lam mat dau gach chan*/
   font-size: 10px;
   font-weight: bold;
   color: black;
@@ -166,38 +166,48 @@ box-shadow: 0 3px yellow; /* đương kẻ chân*/
 #icon1s{
   font-size: 20px;
 }
+/*
 .col-sm-4 ul li{
   list-style: none;
+  position: relative;
 }
 #hn:hover{
   color: orange;
 }
 ul li ul{
 	display:none;
+  position: absolute;
 }
 ul li:hover ul{
 	display:block;/* trỏ chuột sẽ hiện*/
 }
+
 /*
 ul li ul li{
 	clear:both;
-}*/
+}
+*/
+
+.col-sm-4 p{
+}
+.col-sm-4 p:hover{
+  color: orange;
+}
 
 
 
 
 
-
-/* Slideshow container */
+/* Slideshow container
 .slideshow-container {
   position: relative;
   margin: auto;
-}
-/* Ẩn các slider */
+}*/
+/* Ẩn các slider
 .mySlides {
     display: none;
-}
-/* Định dạng nội dung Caption */
+}*/
+/* Định dạng nội dung Caption
 .text {
   color: #f2f2f2;
   font-size: 15px;
@@ -206,9 +216,9 @@ ul li ul li{
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+}*/
 
-/* định dạng các chấm chuyển đổi các slide */
+/* định dạng các chấm chuyển đổi các slide
 .dot {
   cursor:pointer;
   height: 13px;
@@ -219,12 +229,13 @@ ul li ul li{
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-/* khi được hover, active đổi màu nền */
+*/
+/* khi được hover, active đổi màu nền
 .active, .dot:hover {
   background-color: #717171;
 }
-
-/* Thêm hiệu ứng khi chuyển đổi các slide */
+*/
+/* Thêm hiệu ứng khi chuyển đổi các slide
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 3s;
@@ -240,4 +251,4 @@ ul li ul li{
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
+}*/
