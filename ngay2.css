@@ -98,6 +98,10 @@ body{
 .anh img{
   width: 460px;
   height: 400px;
+  opacity: 1;
+}
+.anh img:hover{
+  opacity: 0.5;
 }
 #zenbook2{
   position: relative; /* vị trí tương đối*/
