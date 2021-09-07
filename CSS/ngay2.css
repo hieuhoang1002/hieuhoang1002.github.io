@@ -1,0 +1,273 @@
+body{
+  background-color: LightPink;
+}
+.baoquanh{
+  width: 100%;
+  height: auto;
+}
+.menu{
+  width: 100%;
+  height: 105px;
+  background-color: #D3D3D3;
+}
+.tren{
+  width: 100%;
+  height: 35px;
+  margin: 0 auto;
+  padding-top: 0px;
+}
+.tren ul{
+  list-style: none; /* làm mất dấu chấm */
+}
+.tren ul li{
+  display: inline-block;
+  padding: 10px;
+}
+.tren ul li a{
+  text-decoration: none;/* lam mat dau gach chan*/
+  font-size: 10px;
+  font-weight: bold;
+  color: black;
+}
+.tren ul li a img{
+  vertical-align: middle; /*Thành phần sẽ được canh giữa theo thành phần bao ngoài.*/
+}
+#logo{
+  padding-right: 570px;
+}
+
+/*.duoi{
+  width: 80%;
+  height: 50px;
+  margin: 0 auto;
+}*/
+/*
+.search{
+  height: 30px;
+  width: 300px;
+  background: SkyBlue;
+  color: white;
+  border-radius: 5px;
+}
+*/
+#fb{
+  padding-left: 10px;
+}
+/*
+#timkiem{
+  border-radius: 5px;
+}
+*/
+.duoi{
+  width: 85%;
+  height: 50px;
+  margin: 0 auto;
+}
+.duoi ul{
+  list-style: none;
+}
+.duoi ul li {
+  float: left;
+  padding: 5px;
+}
+#iconasus{
+  padding-right: 80px;
+  padding-top: 0px;
+}
+#icondell{
+  padding-right: 80px;
+}
+#iconhp{
+  padding-right: 80px;
+}
+#iconmac{
+  padding-right: 650px;
+}
+#log{
+  padding-top: 25px;
+}
+#log a{
+  font-size: 10px;
+  color: white;
+}
+#log a:hover{
+  color: #990000;
+}
+.content{
+  background: black;
+  padding-bottom: 10px;
+}
+.anh{
+  width: 96%;
+  display: grid;
+  margin: 20px auto ;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 420px 400px;
+  grid-column-gap: 80px;
+}
+.anh img{
+  width: 460px;
+  height: 400px;
+  opacity: 1;
+}
+.anh img:hover{
+  opacity: 0.5;
+}
+#zenbook2{
+  position: relative; /* vị trí tương đối*/
+  /*gộp 2 ô vị trí từ 1 dến 3*/
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#zenbook2 img{
+  width: 940px;
+  height: 400px;
+}
+#zenbook2 h2{
+  position:absolute;
+  top: 10px;
+  left: 400px;
+  font-size: 20px;
+  font-weight: normal;
+}
+/* Chữ Khám phá hiện thị trong ảnh*/
+#aorus{
+  position: relative;
+}
+#aorus h2{
+  position:absolute;
+  top: 10px;
+  left: 200px;
+  font-size: 20px;
+  font-weight: normal;
+}
+#hp{
+  position: relative;
+}
+#hp h2{
+  position:absolute;
+  top: 10px;
+  left: 200px;
+  font-size: 20px;
+  font-weight: normal;
+}
+#mac{
+  position: relative;
+}
+#mac h2{
+  position:absolute;
+  top: 10px;
+  left: 200px;
+  font-size: 20px;
+  font-weight: normal;
+}
+#dell{
+  position: relative;
+}
+#dell h2{
+  position:absolute;
+  top: 10px;
+  left: 200px;
+  font-size: 20px;
+  font-weight: normal;
+}
+h2{
+  position: absolute; /* vị trí tuyệt đối*/
+}
+h2:hover{
+color: 	LightSkyBlue;
+transition: 0.7s;/*time hien thi*/
+box-shadow: 0px 1.5px yellow; /* bóng đổ*/ /*0px: đổ phía bên phải; 1.5px: đổ phía dưới*/
+}
+.cuoi{
+  background-color: #363636;
+}
+#icon1s{
+  font-size: 20px;
+}
+/*
+.col-sm-4 ul li{
+  list-style: none;
+  position: relative;
+}
+#hn:hover{
+  color: orange;
+}
+ul li ul{
+	display:none;
+  position: absolute;
+}
+ul li:hover ul{
+	display:block;/* trỏ chuột sẽ hiện*/
+}
+
+/*
+ul li ul li{
+	clear:both;
+}
+*/
+
+.col-sm-4 p{
+}
+.col-sm-4 p:hover{
+  color: orange;
+}
+
+
+
+
+
+/* Slideshow container
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}*/
+/* Ẩn các slider
+.mySlides {
+    display: none;
+}*/
+/* Định dạng nội dung Caption
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}*/
+
+/* định dạng các chấm chuyển đổi các slide
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+*/
+/* khi được hover, active đổi màu nền
+.active, .dot:hover {
+  background-color: #717171;
+}
+*/
+/* Thêm hiệu ứng khi chuyển đổi các slide
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 3s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}*/

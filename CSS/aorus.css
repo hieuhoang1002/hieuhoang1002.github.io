@@ -1,0 +1,239 @@
+.menu{
+  width: 100%;
+  height: 40px;
+  background-color: #D3D3D3;
+}
+.menu ul{
+  list-style: none;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  color: blue;
+}
+.menu ul li a img{
+  vertical-align: middle;
+}
+#logo{
+  padding-right: 1100px;
+}
+#logo a{
+  font-family:cursive;
+  color: white;
+}
+#logo a:hover{
+  color: 	#FF6666;
+}
+#fb{
+  padding-right: 50px;
+}
+#insta{
+  padding-right: 50px;
+}
+#mess{
+  padding-right: 0px;
+}
+
+.content{
+  background-color: black;
+  padding-bottom: 10px;
+}
+.content1{
+  display: flex;
+  background-color: 	Lavender;
+}
+
+figure.img0 {
+  color: #fff;
+  position: relative;/* thành phần mẹ ở vị trí tuyệt đối*/
+}
+
+figure.img0 figcaption {
+  position: absolute; /* thành phần con ở vị trí truyệt đối*/
+  bottom: 0;
+  left: 0;
+  padding: 30px 90px;
+  width: 100%;
+  height: 100%;
+}
+figure.img0 figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 100%;
+  border-left: 4px solid orange;/*Xác định tạo đường viền bên trái.*/
+  content: ""; /*huộc tính content sử dụng kèm với bộ chọn :before, :after để chèn nội dung được tạo.*/
+  background-color: rgba(255, 255, 255, 0.5);/* màu của figcaption*/
+  -webkit-transition: all 0.5s;/* hỗ trợ cho google*/
+  transition: all 0.5s;/*xác định quá trình chuyển đổi khi có 1 hành động*/
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;/*độ trễ time sau khi hiệu ứng kết thúc*/
+}
+figure.img0 h2{
+  margin: 0 0 50px 0;/*canh lề:top right bottom left*/
+  opacity: 0;/*độ trong suốt*/
+  -webkit-transition:  0.5s;
+  transition:  0.5s;
+  font-weight: 200; /*chữ đậm hay thường*/
+  text-transform: uppercase;/* toàn bộ chữ trong văn bản viết hoa*/
+  -webkit-transform: translate3d(100px, 0, 0);
+  transform: translate3d(100px, 0, 0);
+  -webkit-transition-delay: 0.35s;
+  transition-delay: 0.35s;
+}
+figure.img0 p {
+  margin: 0 0 50px 0;/*canh lề:top right bottom left*/
+  opacity: 0;/*độ trong suốt*/
+  -webkit-transition:  0.5s;
+  transition: 0.5s;font-weight: 200;
+  -webkit-transform: translate3d(0, 50px, 0);/*Sử dụng -webkit-transform: translate3d(0,0,0); sẽ giúp GPU hoạt động cho các chuyển đổi CSS*/
+  transform: translate3d(0, 50px, 0);/*di chuyển đối tượng mượt hơn */
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+figure.img0 h2 span {
+  font-weight: 500;
+}
+figure.img0 a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  color: #ffffff;
+}
+figure.img0:hover img {
+  opacity: 0.35;
+}
+
+figure.img0:hover figcaption h2 {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;/*độ trễ time khi hover */
+}
+figure.img0:hover figcaption p {
+  opacity: 0.9;
+  -webkit-transform: translate3d(0%, 0%, 0);
+  transform: translate3d(0%, 0%, 0);
+  -webkit-transition-delay: 0.7s;
+  transition-delay: 0.7s;
+}
+
+figure.img0:hover figcaption::before {
+  background: rgba(255, 255, 255, 0);
+  left: 30px;
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.img1{
+  padding-right: 370px;
+  padding-left: 30px;
+}
+.note1 p{
+  /*font-size: 60px;*/
+  font-family: "Times New Roman";
+  padding-top: 80px;
+}
+.content2{
+  padding-bottom: 70px;
+  display: flex;
+  background-color: 	Lavender;
+}
+.note2{
+  padding-top: 50px;
+  padding-right: 400px;
+  padding-left: 70px;
+}
+.note2 p{
+  padding-top: 20px;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: LightSeaGreen;
+}
+.img2{
+  padding-top: 50px;
+  padding-right: 70px;
+}
+.content3{
+  padding-bottom: 70px;
+  display: flex;
+  background-color: Lavender;
+}
+.img3{
+  padding-top: 30px;
+  padding-right: 350px;
+  padding-left: 50px;
+}
+.note3 p{
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: LightSeaGreen;
+}
+.content4{
+  padding-bottom: 70px;
+  display: flex;
+  background-color: 	Lavender;
+}
+.note4{
+  padding-right: 400px;
+  padding-left: 70px;
+}
+.note4 p{
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: LightSeaGreen;
+}
+.img4{
+  padding-top: 50px;
+  padding-right: 70px;
+}
+.content5{
+  padding-bottom: 70px;
+  display: flex;
+  background-color: Lavender;
+}
+.img5{
+  padding-top: 50px;
+  padding-right: 350px;
+  padding-left: 50px;
+}
+.note5 p{
+  padding-top: 50px;
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: LightSeaGreen;
+}
+
+.a{
+  background-color: lavender;
+  text-align: center;
+}
+.image img{
+padding: 30px;
+transform: scale(1);
+transition: all 1s;
+}
+.image img:hover {
+transform: scale(1.3);
+}
+.cuoi{
+  background-color: #363636;
+}
+#icon1s{
+  font-size: 20px;
+}
+.col-sm-4 p{
+}
+.col-sm-4 p:hover{
+  color: orange;
+}
